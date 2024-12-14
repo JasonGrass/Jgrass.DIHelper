@@ -1,10 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jgrass.DIHelper", "Jgrass.DIHelper\Jgrass.DIHelper\Jgrass.DIHelper.csproj", "{865E5628-88E7-412A-99F9-D686EDAF88DE}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35323.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jgrass.DIHelper", "Jgrass.DIHelper\Jgrass.DIHelper.csproj", "{1D993962-D269-4C17-BFCA-7614208B1848}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jgrass.DIHelper.Sample", "Jgrass.DIHelper\Jgrass.DIHelper.Sample\Jgrass.DIHelper.Sample.csproj", "{0E0529AC-4822-42B3-8CF5-6904DF5AFD81}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jgrass.DIHelper.Tests", "Jgrass.DIHelper\Jgrass.DIHelper.Tests\Jgrass.DIHelper.Tests.csproj", "{82B3A2F1-F289-4CFF-B2DB-7114DF6BF462}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jgrass.DIHelper.Sample", "Jgrass.DIHelper.Sample\Jgrass.DIHelper.Sample.csproj", "{EC4744C2-1FD1-48EE-B8B7-43E37DA2F630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{865E5628-88E7-412A-99F9-D686EDAF88DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{865E5628-88E7-412A-99F9-D686EDAF88DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{865E5628-88E7-412A-99F9-D686EDAF88DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{865E5628-88E7-412A-99F9-D686EDAF88DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E0529AC-4822-42B3-8CF5-6904DF5AFD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E0529AC-4822-42B3-8CF5-6904DF5AFD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E0529AC-4822-42B3-8CF5-6904DF5AFD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E0529AC-4822-42B3-8CF5-6904DF5AFD81}.Release|Any CPU.Build.0 = Release|Any CPU
-		{82B3A2F1-F289-4CFF-B2DB-7114DF6BF462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{82B3A2F1-F289-4CFF-B2DB-7114DF6BF462}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{82B3A2F1-F289-4CFF-B2DB-7114DF6BF462}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{82B3A2F1-F289-4CFF-B2DB-7114DF6BF462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D993962-D269-4C17-BFCA-7614208B1848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D993962-D269-4C17-BFCA-7614208B1848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D993962-D269-4C17-BFCA-7614208B1848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D993962-D269-4C17-BFCA-7614208B1848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4744C2-1FD1-48EE-B8B7-43E37DA2F630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4744C2-1FD1-48EE-B8B7-43E37DA2F630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4744C2-1FD1-48EE-B8B7-43E37DA2F630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4744C2-1FD1-48EE-B8B7-43E37DA2F630}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ED654C0-082F-4E43-AC1B-2DAA6819D725}
 	EndGlobalSection
 EndGlobal
