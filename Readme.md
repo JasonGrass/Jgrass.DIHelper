@@ -1,5 +1,7 @@
 # Jgrass.DIHelper
 
+[![](https://img.shields.io/nuget/v/Jgrass.DIHelper?logo=nuget)](https://www.nuget.org/packages/Jgrass.DIHelper)
+
 Dependency Injection Helper
 
 通过代码生成器，完成对依赖的自动注入，无需任何运行时的反射操作。
@@ -26,8 +28,8 @@ public partial class ExampleViewModel
 // 自动生成的代码
 partial class ExampleViewModel
 {
-    public partial IMyService MyService => App.GetService<Jgrass.DIHelper.Sample.Services.IMyService>();
-    public partial IMyService2 MyService2 => App.GetService<Jgrass.DIHelper.Sample.Services.IMyService2>();
+    public partial IMyService MyService => App.GetService<IMyService>();
+    public partial IMyService2 MyService2 => App.GetService<IMyService2>();
 }
 ```
 
@@ -59,3 +61,7 @@ public class App
 - 方法签名必须是 `T MethodName<T>()` (方法名不限)
 
 建议：需要在这个方法中，保证服务的获取，如果获取到的是空，应该抛异常。
+
+## MORE
+
+博客：[使用分部属性和代码生成器完成依赖自动注入 | 晒太阳的猫](https://blog.jgrass.cc/posts/auto-property-dependency-injection/ )
